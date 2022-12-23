@@ -181,21 +181,21 @@ func file_test_proto_rawDescGZIP() []byte {
 
 var file_test_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_test_proto_goTypes = []interface{}{
-	(*PingRequest)(nil),   // 0: adamthesax.testproto.PingRequest
-	(*PingResponse)(nil),  // 1: adamthesax.testproto.PingResponse
+	(*PingRequest)(nil),   // 0: akosyakov.testproto.PingRequest
+	(*PingResponse)(nil),  // 1: akosyakov.testproto.PingResponse
 	(*emptypb.Empty)(nil), // 2: google.protobuf.Empty
 }
 var file_test_proto_depIdxs = []int32{
-	2, // 0: adamthesax.testproto.TestService.PingEmpty:input_type -> google.protobuf.Empty
-	0, // 1: adamthesax.testproto.TestService.Ping:input_type -> adamthesax.testproto.PingRequest
-	0, // 2: adamthesax.testproto.TestService.PingError:input_type -> adamthesax.testproto.PingRequest
-	0, // 3: adamthesax.testproto.TestService.PingList:input_type -> adamthesax.testproto.PingRequest
-	0, // 4: adamthesax.testproto.TestService.PingStream:input_type -> adamthesax.testproto.PingRequest
-	1, // 5: adamthesax.testproto.TestService.PingEmpty:output_type -> adamthesax.testproto.PingResponse
-	1, // 6: adamthesax.testproto.TestService.Ping:output_type -> adamthesax.testproto.PingResponse
-	2, // 7: adamthesax.testproto.TestService.PingError:output_type -> google.protobuf.Empty
-	1, // 8: adamthesax.testproto.TestService.PingList:output_type -> adamthesax.testproto.PingResponse
-	1, // 9: adamthesax.testproto.TestService.PingStream:output_type -> adamthesax.testproto.PingResponse
+	2, // 0: akosyakov.testproto.TestService.PingEmpty:input_type -> google.protobuf.Empty
+	0, // 1: akosyakov.testproto.TestService.Ping:input_type -> akosyakov.testproto.PingRequest
+	0, // 2: akosyakov.testproto.TestService.PingError:input_type -> akosyakov.testproto.PingRequest
+	0, // 3: akosyakov.testproto.TestService.PingList:input_type -> akosyakov.testproto.PingRequest
+	0, // 4: akosyakov.testproto.TestService.PingStream:input_type -> akosyakov.testproto.PingRequest
+	1, // 5: akosyakov.testproto.TestService.PingEmpty:output_type -> akosyakov.testproto.PingResponse
+	1, // 6: akosyakov.testproto.TestService.Ping:output_type -> akosyakov.testproto.PingResponse
+	2, // 7: akosyakov.testproto.TestService.PingError:output_type -> google.protobuf.Empty
+	1, // 8: akosyakov.testproto.TestService.PingList:output_type -> akosyakov.testproto.PingResponse
+	1, // 9: akosyakov.testproto.TestService.PingStream:output_type -> akosyakov.testproto.PingResponse
 	5, // [5:10] is the sub-list for method output_type
 	0, // [0:5] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
